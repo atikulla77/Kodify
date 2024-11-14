@@ -73,8 +73,6 @@ body{
 }
 
 
-
-
 /* =-=-=-=-=-=-=-=-=-=-=-=Contact=-=-=-=-=-=-=-=-=-=-=-= */
 
 .inputStyleIng[type="text"]:focus ~ .inputStyleIngText,
@@ -98,4 +96,58 @@ body{
 .inputStyleIng[type="tel"]:focus ~ .inputStyleIngText,
 .inputStyleIng[type="tel"]:not(:placeholder-shown) ~ .inputStyleIngText {
   @apply text-[#03bfff] bg-[#0a012a] transform -translate-y-[22px] -translate-x-[3px] scale-75 cursor-default;
+}
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=Why-hoose-Us=-=-=-=-=-=-=-=-=-=-=-= */
+
+.why_choose_us_box::after {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  background: #0a012a;
+  border-radius: 16px;
+}
+
+.why_choose_us_box::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 155%;
+  background: linear-gradient(#03BFFF, #03BFFF);
+  transform: rotate(130deg);
+}
+
+.why_choose_us_box_container::after{
+  content: "";
+  position: absolute;
+  inset: 3px;
+  background: #0a012a;
+  border-radius: 16px;
+  z-index: 0;
+}
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=Service=-=-=-=-=-=-=-=-=-=-=-= */
+
+.S_Card {
+  background: linear-gradient(#26185669 50%, #03BFFF 50%);
+  background-size: 100% 200%;
+  background-position: 0 2.5%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);
+  transition: 0.5s;
+}
+
+.S_Card:hover {
+  background-position: 0 100%;
+}
+.S_Card:hover .S_Icon_Wrapper {
+  background-color: #ffffff;
+  color: #03BFFF;
+}
+.S_Card:hover h3 {
+  color: #ffffff;
+}
+.S_Card:hover p {
+  color: #f0f0f0;
 }

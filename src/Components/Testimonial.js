@@ -92,7 +92,7 @@ const Testimonial = () => {
   ];
 
   return (
-    <div className="text-[white] body-font bg-[#0a012a] GeologicaFont pt-[3rem] [@media(min-width:460px)]:pb-[3rem] pb-[1.5rem]">
+    <div className="text-[white] body-font bg-[#0a012a] GeologicaFont pt-[3rem]">
       <div className="xl:w-[1230px] w-[96%] [@media(min-width:460px)]:px-5 px-3 mx-auto pb-[50px] relative ">
         <p className="text-[#03BFFF] [@media(min-width:530px)]:text-[15px] [@media(min-width:460px)]:text-[13px] text-[12px] mx-auto  text-center relative z-10">
           Testimonial

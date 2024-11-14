@@ -48,7 +48,7 @@ const Contact = () => {
 
   return (
     <main
-      className={`w-full h-full relative md:pt-[3.5rem] pt-[2rem] GeologicaFont `}
+      className={`w-full h-full relative md:pt-[3.5rem] pt-[2rem] [@media(min-width:460px)]:pb-[3rem] pb-[1.5rem] GeologicaFont `}
       id="Contact"
     >
       <div className="w-full text-center text-white relative z-10 md:pb-[1rem] pb-[10px]">
@@ -74,15 +74,15 @@ const Contact = () => {
               <h3 className="text-[17px] font-semibold">Contact Information</h3>
               <p className="mt-2 flex items-center text-[15px] md:justify-start justify-center">
                 <FaMapMarkerAlt className="mr-2" size={14} />
-                123 Fashion Ave, Dhaka, Bangladesh
+                Rajshahi, Paba 6210, Bangladesh
               </p>
               <p className="mt-2 flex items-center text-[15px] md:justify-start justify-center">
                 <FaPhone className="mr-2" size={14} />
-                +880 1234 567890
+                +880 173 966 3503
               </p>
               <p className="mt-2 flex items-center text-[15px] md:justify-start justify-center">
                 <FaEnvelope className="mr-2" size={14} />
-                contact@arlabels.com
+                kodify345@gmail.com
               </p>
             </div>
             <div>

@@ -8,6 +8,8 @@ import Testimonial from "./Components/Testimonial";
 import Lodding from "./Components/Lodding";
 import Projects from "./Components/Projects";
 import About from "./Components/About";
+import WhyChooseUs from "./Components/WhyChooseUs";
+import Service from "./Components/Service";
 
 function App() {
   const [showLodding, setshowLodding] = useState(true);
@@ -26,8 +28,10 @@ function App() {
           <About />
           <Skill />
           <Projects />
-          <Contact />
+          <Service />
+          <WhyChooseUs />
           <Testimonial />
+          <Contact />
           <Footer />
         </div>
       )}
