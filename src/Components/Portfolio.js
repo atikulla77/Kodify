@@ -105,7 +105,7 @@ function Portfolio() {
                   className="modal-toggle"
                 />
                 <div className="modal GeologicaFont" role="dialog">
-                  <div className="modal-box [@media(min-width:640px)]:px-[1rem] px-[2px] [@media(min-width:640px)]:pt-[1rem] pt-[2px] [@media(min-width:640px)]:pb-[7px] pb-[3px] max-w-[55rem] bg-[#0a012a]">
+                  <div className="modal-box [@media(min-width:640px)]:px-[1rem] px-[0px] [@media(min-width:640px)]:pt-[1rem] pt-[0px] [@media(min-width:640px)]:pb-[7px] pb-[3px] max-w-[55rem] bg-[#0a012a]">
                     <div className="w-[100%] h-[100%] [@media(min-width:450px)]:rounded-[10px] rounded-[5px] overflow-hidden">
                       <div className="w-full relative">
                         <img
