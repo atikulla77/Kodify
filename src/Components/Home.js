@@ -25,14 +25,6 @@ function Home() {
       <Navber />
       <div className="xl:w-[1230px] w-[96%] h-full [@media(min-width:920px)]:py-[4rem] py-0 flex [@media(min-width:920px)]:flex-row flex-col justify-between items-center mx-auto  relative">
         {/* (partical) */}
-        {/* <div className="absolute left-0 top-[100px] z-0 select-none w-[320px] h-[320px] flex overflow-hidden rounded-[50%]">
-          <img
-            src={dot_partical}
-            className="w-[100%] h-[100%] select-none"
-          />
-        </div> */}
-
-
         <div
           className="[@media(min-width:768px)]:w-[60%] w-[90%] h-[100%] flex [@media(min-width:920px)]:hidden justify-center items-center z-10 overflow-hidden mx-auto"
           data-aos="zoom-out"
@@ -47,7 +39,7 @@ function Home() {
             Hello,
           </p>
 
-          <h1 className="lg:!text-[65px] [@media(min-width:930px)]:text-[55px] [@media(min-width:360px)]:text-[45px] text-[29px] font-[700] [@media(min-width:920px)]:mx-[] mx-auto text-[#fff] [@media(min-width:1060px)]:leading-[75px] [@media(min-width:640px)]:leading-[65px] [@media(min-width:530px)]:leading-[60px] [@media(min-width:360px)]:leading-[50px] leading-[36px] ml-[-5px] [@media(min-width:640px)]:pb-[11px] pb-[8px]">
+          <h1 className="lg:!text-[65px] [@media(min-width:930px)]:text-[55px] [@media(min-width:360px)]:text-[45px] text-[25px] font-[700] [@media(min-width:920px)]:mx-[] mx-auto text-[#fff] [@media(min-width:1060px)]:leading-[75px] [@media(min-width:640px)]:leading-[65px] [@media(min-width:530px)]:leading-[60px] [@media(min-width:360px)]:leading-[50px] leading-[36px] ml-[-5px] [@media(min-width:640px)]:pb-[11px] pb-[8px]">
             I Am
             <span className="text-[#03bfff] [@media(min-width:640px)]:pl-[10px] pl-[5px]">{text}</span>
             <span className="text-[#03bfff]">
