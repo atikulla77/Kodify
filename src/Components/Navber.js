@@ -73,6 +73,7 @@ function Navber() {
                 {navItems.map((key) => {
                   return(
                     <Link
+                    key={key.id}
                     to={key.link}
                     spy={true}
                     smooth={true}
@@ -115,6 +116,7 @@ function Navber() {
               {navItems.map((key) => {
                   return(
                     <Link
+                    key={key.id}
                     to={key.link}
                     spy={true}
                     smooth={true}

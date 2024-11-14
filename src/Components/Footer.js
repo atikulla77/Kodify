@@ -17,7 +17,7 @@ function Footer() {
 
 
           <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-            <Link to="Home" className="flex font-medium items-center md:justify-start justify-center mb-[12px] cursor-pointer">
+            <Link to="Home" className="flex font-medium items-center md:justify-start justify-center md:mx-0 mx-auto mb-[12px] cursor-pointer">
               <img src={logo} className="w-[100px] select-none" />
             </Link>
             <p className="mt-2 text-sm text-[#ffffff9c] GeologicaFont">

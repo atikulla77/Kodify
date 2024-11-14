@@ -5,47 +5,50 @@ function Skill() {
     {
       id: 1,
       name: "HTML",
-      progress: '100%',
+      progress: "100%",
     },
     {
       id: 2,
       name: "CSS",
-      progress: '100%',
+      progress: "100%",
     },
     {
       id: 3,
       name: "Tailwind",
-      progress: '95%',
+      progress: "95%",
     },
     {
       id: 4,
       name: "Boostrap",
-      progress: '90%',
+      progress: "90%",
     },
     {
       id: 5,
       name: "JavaScript",
-      progress: '90%',
+      progress: "90%",
     },
     {
       id: 6,
       name: "React JS",
-      progress: '85%',
+      progress: "85%",
     },
     {
       id: 7,
       name: "Node JS",
-      progress: '80%',
+      progress: "80%",
     },
     {
       id: 8,
       name: "Github",
-      progress: '85%',
+      progress: "85%",
     },
   ];
   return (
     <div>
-      <div className="w-full h-full relative md:pt-[3.5rem] pt-[3rem] GeologicaFont " name="Skill">
+      <div
+        className="w-full h-full relative desktop3:pt-[3.5rem] pt-[1rem] GeologicaFont "
+        name="Skill"
+      >
         <div className="w-full text-center text-white relative z-10 md:pb-[1rem] pb-[10px]">
           <h1 className="md:text-[30px] sm:text-[25px] text-[20px] font-bold">
             My Skills
@@ -61,12 +64,14 @@ function Skill() {
                 key={key.id}
                 className="lg:w-[28rem] sm:w-[23rem] w-full mx-auto sm:!px-[10px] [@media(min-width:490px)]:px-[3rem] px-[1rem] [@media(min-width:450px)]:py-[15px] py-[10px]"
               >
-                <p className="[@media(min-width:450px)]:text-[15px] text-[14px] font-[500] [@media(min-width:450px)]:pb-[5px] pb-[3px]">{key.name}</p>
+                <p className="[@media(min-width:450px)]:text-[15px] [@media(min-width:400px)]:text-[14px] text-[13px] font-[500] [@media(min-width:450px)]:pb-[5px] pb-[3px]">
+                  {key.name}
+                </p>
 
-                <div class="w-full bg-[#a6adbb33] rounded-full h-[7px] dark:bg-[#a6adbb33]">
+                <div className="w-full bg-[#a6adbb33] rounded-full h-[7px] dark:bg-[#a6adbb33]">
                   <div
-                    class={`bg-[#03bfff] h-[7px] rounded-full w-[${key.progress}]`}
-                    style={{width: `${key.progress}`}}
+                    className={`bg-[#03bfff] h-[7px] rounded-full w-[${key.progress}]`}
+                    style={{ width: `${key.progress}` }}
                   ></div>
                 </div>
               </div>

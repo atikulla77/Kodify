@@ -65,7 +65,7 @@ const Contact = () => {
           {/* Left Side: Company Information */}
           <div className="w-full lg:w-[40%] md:pr-6 pr-0 grid place-content-center text-white md:text-left text-center mx-auto">
 
-              <img src={logo} className="[@media(min-width:420px)]:w-[100px] w-[80px] select-none cursor-pointer mb-[10px]" />
+              <img src={logo} className="[@media(min-width:420px)]:w-[100px] w-[80px] select-none cursor-pointer md:mx-0 mx-auto mb-[10px]" />
 
             <p className="md:mb-6 mb-3 md:text-[15px] text-[14px]"> 
             Always available for freelance work if the right project comes along, Feel free to contact me!

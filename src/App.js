@@ -7,6 +7,7 @@ import Skill from "./Components/Skill";
 import Testimonial from "./Components/Testimonial";
 import Lodding from "./Components/Lodding";
 import Projects from "./Components/Projects";
+import About from "./Components/About";
 
 function App() {
   const [showLodding, setshowLodding] = useState(true);
@@ -22,6 +23,7 @@ function App() {
       ) : (
         <div className="w-full h-full">
           <Home />
+          <About />
           <Skill />
           <Projects />
           <Contact />
