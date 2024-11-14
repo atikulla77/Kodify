@@ -39,7 +39,9 @@ function Home() {
             Hello,
           </p>
 
-          <h1 className="lg:!text-[65px] [@media(min-width:930px)]:text-[55px] [@media(min-width:360px)]:text-[45px] text-[25px] font-[700] [@media(min-width:920px)]:mx-[] mx-auto text-[#fff] [@media(min-width:1060px)]:leading-[75px] [@media(min-width:640px)]:leading-[65px] [@media(min-width:530px)]:leading-[60px] [@media(min-width:360px)]:leading-[50px] leading-[36px] ml-[-5px] [@media(min-width:640px)]:pb-[11px] pb-[8px]">
+          <h1 className="lg:!text-[65px] [@media(min-width:930px)]:text-[55px] [@media(min-width:475px)]:text-[45px] [@media(min-width:360px)]:text-[40px] text-[29px] font-[700] [@media(min-width:920px)]:mx-[] mx-auto text-[#fff]
+          
+          lg:!leading-[65px] [@media(min-width:930px)]:leading-[65px] [@media(min-width:475px)]:leading-[60px] [@media(min-width:360px)]:leading-[50px] leading-[36px] ml-[-5px] [@media(min-width:640px)]:pb-[11px] pb-[8px]">
             I Am
             <span className="text-[#03bfff] [@media(min-width:640px)]:pl-[10px] pl-[5px]">{text}</span>
             <span className="text-[#03bfff]">
