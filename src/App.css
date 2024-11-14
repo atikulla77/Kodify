@@ -1,0 +1,101 @@
+body{
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f5f5;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #ccc;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=Home=-=-=-=-=-=-=-=-=-=-=-= */
+.textAnimation{
+  width: 246px;
+  overflow: hidden;
+}
+.textAnimation .text{
+  position: relative;
+  color: #4070F4;
+  font-size: 30px;
+  font-weight: 600;
+}
+.textAnimation .text.first-text{
+  color: #FFF;
+}
+.text.sec-text:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #010718;
+  border-left: 2px solid #4070F4;
+  animation: animate 4s steps(12) infinite;
+}
+@keyframes animate{
+  40%, 60%{
+      left: calc(100% + 4px);
+  }
+  100%{
+      left: 0%;
+  }
+}
+.social_icon_hover:hover {
+  background: #03bfff;
+  color: white;
+}
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=Testimonial=-=-=-=-=-=-=-=-=-=-=-= */
+
+.bannerDotliId {
+  color: #ffffff45;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#bannerDotId li {
+  width: 17px;
+}
+@media screen and (max-width: 640px) {
+  #bannerDotId li {
+    width: 7px;
+  }
+}
+#bannerDotId .slick-active .bannerDotliId {
+  color: #03bfff;
+}
+
+
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=Contact=-=-=-=-=-=-=-=-=-=-=-= */
+
+.inputStyleIng[type="text"]:focus ~ .inputStyleIngText,
+.inputStyleIng[type="text"]:not(:placeholder-shown) ~ .inputStyleIngText {
+  @apply text-[#03bfff] bg-[#0a012a] transform -translate-y-[22px] -translate-x-[3px] scale-75 cursor-default;
+}
+.inputStyleIng[type="email"]:focus ~ .inputStyleIngText,
+.inputStyleIng[type="email"]:not(:placeholder-shown) ~ .inputStyleIngText {
+  @apply text-[#03bfff] bg-[#0a012a] transform -translate-y-[22px] -translate-x-[3px] scale-75 cursor-default;
+}
+.inputStyleIng[type="password"]:focus ~ .inputStyleIngText,
+.inputStyleIng[type="password"]:not(:placeholder-shown) ~ .inputStyleIngText {
+  @apply text-[#03bfff] bg-[#0a012a] transform -translate-y-[22px] -translate-x-[3px] scale-75 cursor-default;
+}
+
+.inputStyleIng[type="file"]:focus ~ .inputStyleIngText,
+.inputStyleIng[type="file"]:not(:placeholder-shown) ~ .inputStyleIngText {
+  @apply text-[#03bfff] bg-[#0a012a] transform -translate-y-[22px] -translate-x-[3px] scale-75 cursor-default;
+}
+
+.inputStyleIng[type="tel"]:focus ~ .inputStyleIngText,
+.inputStyleIng[type="tel"]:not(:placeholder-shown) ~ .inputStyleIngText {
+  @apply text-[#03bfff] bg-[#0a012a] transform -translate-y-[22px] -translate-x-[3px] scale-75 cursor-default;
+}
