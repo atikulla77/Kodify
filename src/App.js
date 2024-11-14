@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="w-full h-full bg-[#0a012a]">
-      {/* {showLodding ? (
+      {showLodding ? (
         <Lodding />
       ) : (
         <div className="w-full h-full">
@@ -34,18 +34,8 @@ function App() {
           <Contact />
           <Footer />
         </div>
-      )} */}
+      )}
 
-
-<Home />
-          <About />
-          <Skill />
-          <Portfolio />
-          <Service />
-          <WhyChooseUs />
-          <Testimonial />
-          <Contact />
-          <Footer />
     </div>
   );
 }
