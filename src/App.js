@@ -6,7 +6,7 @@ import Home from "./Components/Home";
 import Skill from "./Components/Skill";
 import Testimonial from "./Components/Testimonial";
 import Lodding from "./Components/Lodding";
-import Projects from "./Components/Projects";
+import Portfolio from "./Components/Portfolio";
 import About from "./Components/About";
 import WhyChooseUs from "./Components/WhyChooseUs";
 import Service from "./Components/Service";
@@ -20,21 +20,32 @@ function App() {
 
   return (
     <div className="w-full h-full bg-[#0a012a]">
-      {showLodding ? (
+      {/* {showLodding ? (
         <Lodding />
       ) : (
         <div className="w-full h-full">
           <Home />
           <About />
           <Skill />
-          <Projects />
+          <Portfolio />
           <Service />
           <WhyChooseUs />
           <Testimonial />
           <Contact />
           <Footer />
         </div>
-      )}
+      )} */}
+
+
+<Home />
+          <About />
+          <Skill />
+          <Portfolio />
+          <Service />
+          <WhyChooseUs />
+          <Testimonial />
+          <Contact />
+          <Footer />
     </div>
   );
 }

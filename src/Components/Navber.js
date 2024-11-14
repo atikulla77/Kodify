@@ -37,11 +37,16 @@ function Navber() {
     },
     {
       id: 4,
-      name: "Projects",
-      link: "Projects",
+      name: "Portfolio",
+      link: "Portfolio",
     },
     {
       id: 5,
+      name: "Service",
+      link: "Service",
+    },
+    {
+      id: 6,
       name: "Contact",
       link: "Contact",
     },
@@ -58,7 +63,7 @@ function Navber() {
         style={{ transition: ".1s ease-in" }}
       >
         <div
-          className="mx-auto px-2 sm:px-6 lg:px-[0] xl:w-[1230px] w-[96%]"
+          className="mx-auto px-2 [@media(min-width:715px)]:px-6 lg:px-[0] xl:w-[1230px] w-[96%]"
           data-aos="fade-down"
         >
           <div className="items-center [@media(min-width:530px)]:h-[5rem] h-[4rem] flex justify-between w-full GeologicaFont">
@@ -68,7 +73,7 @@ function Navber() {
 
         
             {/* ---------------Web Nav Item--------------- */}
-            <div className="sm:flex hidden items-center justify-center text-white mt-[5px] ">
+            <div className="[@media(min-width:715px)]:flex hidden items-center justify-center text-white mt-[5px] ">
               <div className="flex sm:space-x-4 space-x-1">
                 {navItems.map((key) => {
                   return(
@@ -77,7 +82,7 @@ function Navber() {
                     to={key.link}
                     spy={true}
                     smooth={true}
-                    offset={-50}
+                    offset={-70}
                     duration={100}
                     className="sm:px-3 px-[5px] py-2 text-sm font-medium cursor-pointer"
                     aria-current="page"
@@ -92,7 +97,7 @@ function Navber() {
             {/* ---------------Mobile Nav Button--------------- */}
             <div
               className={`${
-                nevMobileVButton ? "hidden" : "flex sm:hidden"
+                nevMobileVButton ? "hidden" : "flex [@media(min-width:715px)]:hidden"
               } z-[2]`}
               onClick={() => setNevMobileVButton(true)}
             >
@@ -100,7 +105,7 @@ function Navber() {
             </div>
             <div
               className={`${
-                nevMobileVButton ? "flex sm:hidden" : "hidden"
+                nevMobileVButton ? "flex [@media(min-width:715px)]:hidden" : "hidden"
               } z-[2]`}
               onClick={() => setNevMobileVButton(false)}
             >
