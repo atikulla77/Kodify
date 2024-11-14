@@ -7,10 +7,10 @@ import raward from "../image/about/raward.png";
 const About = () => {
   return (
     <main
-      className={`w-full h-full relative desktop3:pt-[1rem] pt-[3rem] desktop3:pb-[3rem] pb-[1rem] GeologicaFont`}
+      className={`w-full h-full relative desktop3:pt-[1rem] pt-[4rem] desktop3:pb-[3rem] pb-[1rem] GeologicaFont`}
       id="About"
     >
-      <div className="w-full text-center text-white relative z-10 sm2:pb-[45px] pb-[15px]">
+      <div className="w-full text-center text-white relative z-10 desktop3:pb-[45px] sm2:pb-[0px] pb-[15px]">
         <p className="text-[#03BFFF] sm2:text-[15px] sm4:text-[13px] text-[12px] sm4:w-[385px] w-[285px] mx-auto sm4:leading-[20px] leading-[16px]">
           About Me
         </p>
