@@ -17,7 +17,7 @@ function App() {
   }, 2500);
 
   return (
-    <div className="bg-[#0a012a]">
+    <div className="w-full h-full bg-[#0a012a]">
       {showLodding ? (
         <Lodding />
       ) : (
