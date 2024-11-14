@@ -106,22 +106,22 @@ function Portfolio() {
                 />
                 <div className="modal GeologicaFont" role="dialog">
                   <div className="modal-box [@media(min-width:640px)]:px-[1rem] px-[0px] [@media(min-width:640px)]:pt-[1rem] pt-[0px] [@media(min-width:640px)]:pb-[7px] pb-[3px] max-w-[55rem] bg-[#0a012a]">
-                    <div className="w-[100%] h-[100%] [@media(min-width:450px)]:rounded-[10px] rounded-[5px] overflow-hidden">
+                    <div className="w-[100%] h-[100%] [@media(min-width:475px)]:rounded-[10px] rounded-[5px] overflow-hidden">
                       <div className="w-full relative">
                         <img
                           src={catagory.img}
-                          className="w-[100%] cursor-pointer [@media(min-width:450px)]:rounded-[10px] rounded-[5px]"
+                          className="w-[100%] cursor-pointer [@media(min-width:475px)]:rounded-[10px] rounded-[5px]"
                           alt=""
                         />
                         <div className="absolute bottom-0 right-0 [@media(min-width:640px)]:h-[30px] h-[25px] [@media(min-width:360px)]:w-[100px] w-[90px] bg-[#0a012a] text-right flex justify-start items-end rounded-tl-[5px] [@media(min-width:460px)]:rounded-br-[8px] [@media(min-width:360px)]:rounded-br-[4px] rounded-br-[3px] pl-[10px] ">
                         <a
                           href={catagory.link}
                           target="_blank"
-                          className="h-[100%] [@media(min-width:640px)]:w-[85px] [@media(min-width:450px)]:w-[80px] [@media(min-width:360px)]:w-[70px] w-[65px] [@media(min-width:640px)]:hover:w-[101px] [@media(min-width:450px)]:hover:w-[85px] [@media(min-width:360px)]:hover:w-[75px] hover:w-[70px] text-white hover:text-white cursor-pointer text-right flex justify-start items-center transition-[0.3s] "
+                          className="h-[100%] [@media(min-width:640px)]:w-[85px] [@media(min-width:475px)]:w-[80px] [@media(min-width:360px)]:w-[70px] w-[65px] [@media(min-width:640px)]:hover:w-[101px] [@media(min-width:475px)]:hover:w-[85px] [@media(min-width:360px)]:hover:w-[75px] hover:w-[70px] text-white hover:text-white cursor-pointer text-right flex justify-start items-center transition-[0.3s] "
                         >
-                          <p className="[@media(min-width:640px)]:text-[13px] [@media(min-width:450px)]:text-[12px] [@media(min-width:360px)]:text-[11px] text-[10px] flex items-center justify-between w-full">
+                          <p className="[@media(min-width:640px)]:text-[13px] [@media(min-width:475px)]:text-[12px] [@media(min-width:360px)]:text-[11px] text-[10px] flex items-center justify-between w-full">
                             <span>Live Demo</span>{" "}
-                            <FaArrowRight className="[@media(min-width:640px)]:text-[14px] [@media(min-width:450px)]:text-[13px] [@media(min-width:360px)]:text-[11px] text-[10px]" />
+                            <FaArrowRight className="[@media(min-width:640px)]:text-[14px] [@media(min-width:475px)]:text-[13px] [@media(min-width:360px)]:text-[11px] text-[10px]" />
                           </p>
                         </a>
                         </div>
