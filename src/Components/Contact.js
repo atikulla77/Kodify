@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import logo from "../image/kodify.png";
+import partical1 from "../image/background-light-Effect.png";
+import partical2 from "../image/background-light-Effect2.png";
 import {
   FaMapMarkerAlt,
   FaPhone,
@@ -60,6 +62,10 @@ const Contact = () => {
         </h1>
       </div>
       <div className="mx-auto xl:w-[1230px] w-[96%] h-[100%] relative z-[1] flex justify-center items-center">
+                {/* (partical) */}
+                <div className="[@media(min-width:768px)]:w-[550px] [@media(min-width:468px)]:w-[450px] [@media(min-width:360px)]:w-[350px] w-[310px] [@media(min-width:768px)]:h-[550px] [@media(min-width:468px)]:h-[450px] [@media(min-width:360px)]:h-[350px] h-[310px] absolute md:left-[-100px] md:right-0 right-0 bottom-[-80px] z-0 select-none flex">
+          <img src={partical1} className="w-[100%] h-[100%] select-none blur-[75px]" />
+        </div>
         <div className="flex md:flex-row flex-col justify-center w-full text-white z-10">
 
           {/* Left Side: Company Information */}

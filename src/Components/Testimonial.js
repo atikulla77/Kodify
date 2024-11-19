@@ -12,6 +12,11 @@ import user4 from "../image/Testimonial/img4.jpg";
 import user5 from "../image/Testimonial/img5.jpg";
 
 
+
+import partical1 from "../image/background-light-Effect.png";
+import partical2 from "../image/background-light-Effect2.png";
+
+
 const Testimonial = () => {
   const settings = {
     dots: true,
@@ -94,6 +99,17 @@ const Testimonial = () => {
   return (
     <div className="text-[white] body-font bg-[#0a012a] GeologicaFont pt-[3rem]">
       <div className="xl:w-[1230px] w-[96%] [@media(min-width:460px)]:px-5 px-3 mx-auto pb-[50px] relative ">
+
+      <div className="[@media(min-width:768px)]:w-[550px] [@media(min-width:468px)]:w-[450px] [@media(min-width:360px)]:w-[350px] w-[310px] [@media(min-width:768px)]:h-[550px] [@media(min-width:468px)]:h-[450px] [@media(min-width:360px)]:h-[350px] h-[310px] absolute [@media(min-width:1434px)]:right-[-100px] [@media(min-width:1375px)]:right-[-70px] [@media(min-width:1310px)]:right-[-40px] right-[0px] bottom-[-150px] z-0 select-none flex">
+          <img src={partical1} className="w-[100%] h-[100%] select-none blur-[75px]" />
+        </div>
+
+        <div className="[@media(min-width:768px)]:w-[550px] [@media(min-width:468px)]:w-[450px] [@media(min-width:360px)]:w-[350px] w-[310px] [@media(min-width:768px)]:h-[550px] [@media(min-width:468px)]:h-[450px] [@media(min-width:360px)]:h-[350px] h-[310px] absolute [@media(min-width:468px)]:left-[-100px] left-[-35px] top-[-80px] z-0 select-none flex">
+          <img src={partical2} className="w-[100%] h-[100%] select-none blur-[75px]" />
+        </div>
+
+
+
         <p className="text-[#03BFFF] [@media(min-width:530px)]:text-[15px] [@media(min-width:460px)]:text-[13px] text-[12px] mx-auto  text-center relative z-10">
           Testimonial
         </p>

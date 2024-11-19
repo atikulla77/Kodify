@@ -60,10 +60,19 @@ function Skill() {
           </p>
         </div>
         <div className="py-[10px] flex flex-wrap sm:w-[30rem] md:w-[47rem] lg:w-[60rem] mx-auto w-full justify-between items-center relative">
-                      {/* partical */}
-                      {/* <div className="w-[500px] h-[500px] absolute [@media(min-width:768px)]:right-[-100px] right-0 top-[-300px] z-0 select-none flex">
-          <img src={partical1} className="w-[100%] h-[100%] select-none" />
-        </div> */}
+          {/* partical */}
+          <div className="[@media(min-width:1440px)]:w-[550px] [@media(min-width:1375px)]:w-[450px] [@media(min-width:360px)]:w-[350px] w-[310px] [@media(min-width:1440px)]:h-[550px] [@media(min-width:1375px)]:h-[450px] [@media(min-width:360px)]:h-[350px] h-[310px] absolute [@media(min-width:1434px)]:right-[-200px] [@media(min-width:1375px)]:right-[-70px] [@media(min-width:1310px)]:right-[-40px] right-[0px] [@media(min-width:1110px)]:top-[-190px] top-[-150px] z-0 select-none flex">
+            <img
+              src={partical1}
+              className="w-[100%] h-[100%] select-none blur-[75px]"
+            />
+          </div>
+          <div className="[@media(min-width:768px)]:w-[550px] [@media(min-width:468px)]:w-[450px] [@media(min-width:360px)]:w-[350px] w-[310px] [@media(min-width:768px)]:h-[550px] [@media(min-width:468px)]:h-[450px] [@media(min-width:360px)]:h-[350px] h-[310px] absolute [@media(min-width:1434px)]:left-[-200px] [@media(min-width:1375px)]:left-[-70px] [@media(min-width:1310px)]:left-[-40px] left-[0px] bottom-[-290px] z-0 select-none flex">
+            <img
+              src={partical2}
+              className="w-[100%] h-[100%] select-none blur-[75px]"
+            />
+          </div>
           {skillDeta.map((key) => {
             return (
               <div

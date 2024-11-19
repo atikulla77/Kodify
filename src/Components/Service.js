@@ -6,6 +6,8 @@ import { BiSupport } from "react-icons/bi";
 import { AiOutlineSolution } from "react-icons/ai";
 import { MdOutlineWebhook } from "react-icons/md";
 import { SiWebpack } from "react-icons/si";
+import partical1 from "../image/background-light-Effect.png";
+import partical2 from "../image/background-light-Effect2.png";
 
 const Service = () => {
   return (
@@ -22,6 +24,15 @@ const Service = () => {
         </p>
       </div>
       <div className="S_Row flex flex-wrap justify-between xl:w-[1230px] md2:w-[815px] sm5:w-[400px] w-[310px] relative">
+
+      <div className="[@media(min-width:768px)]:w-[550px] [@media(min-width:468px)]:w-[450px] [@media(min-width:360px)]:w-[350px] w-[310px] [@media(min-width:768px)]:h-[550px] [@media(min-width:468px)]:h-[450px] [@media(min-width:360px)]:h-[350px] h-[310px] absolute [@media(min-width:1434px)]:right-[-100px] [@media(min-width:1375px)]:right-[-70px] [@media(min-width:1310px)]:right-[-40px] right-[0px] top-[-150px] z-0 select-none flex">
+          <img src={partical1} className="w-[100%] h-[100%] select-none blur-[75px]" />
+        </div>
+        <div className="[@media(min-width:768px)]:w-[550px] [@media(min-width:468px)]:w-[450px] [@media(min-width:360px)]:w-[350px] w-[310px] [@media(min-width:768px)]:h-[550px] [@media(min-width:468px)]:h-[450px] [@media(min-width:360px)]:h-[350px] h-[310px] absolute [@media(min-width:1434px)]:left-[-100px] [@media(min-width:1375px)]:left-[-70px] [@media(min-width:1310px)]:left-[-40px] left-[0px] bottom-[-150px] z-0 select-none flex">
+          <img src={partical1} className="w-[100%] h-[100%] select-none blur-[75px]" />
+        </div>
+
+
         <div className="mx-auto relative z-10" data-aos="fade-right">
           <div className="S_Card mx-auto  sm5:w-[390px] sm3:w-[310px] w-[290px] sm5:h-[280px] h-[250px] sm5:p-[2em_1.5em] sm3:p-[2em_1em] p-[2em_10px] rounded-[5px] cursor-pointer grid justify-center text-center mb-[25px]">
             <div

@@ -23,6 +23,17 @@ const About = () => {
         </h1>
       </div>
       <div className="mx-auto xl:w-[1230px] w-[96%] h-[100%] relative z-[1] flex justify-center items-center">
+        {/* (partical) */}
+        <div className="[@media(min-width:768px)]:w-[550px] [@media(min-width:468px)]:w-[450px] [@media(min-width:360px)]:w-[350px] w-[310px] [@media(min-width:768px)]:h-[550px] [@media(min-width:468px)]:h-[450px] [@media(min-width:360px)]:h-[350px] h-[310px] absolute [@media(min-width:468px)]:left-[-100px] left-[-35px] top-[-80px] z-0 select-none flex">
+          <img src={partical1} className="w-[100%] h-[100%] select-none blur-[75px]" />
+        </div>
+        <div className="[@media(min-width:768px)]:w-[500px] [@media(min-width:468px)]:w-[450px] [@media(min-width:360px)]:w-[350px] w-[310px] [@media(min-width:768px)]:h-[500px] [@media(min-width:468px)]:h-[450px] [@media(min-width:360px)]:h-[350px] h-[310px] absolute [@media(min-width:768px)]:left-[31%] left-0 [@media(min-width:768px)]:top-[20%] top-[50%] z-0 select-none flex">
+          <img src={partical2} className="w-[100%] h-[100%] select-none blur-[75px]" />
+        </div>
+        <div className="[@media(min-width:768px)]:w-[550px] [@media(min-width:468px)]:w-[450px] [@media(min-width:360px)]:w-[350px] w-[310px] [@media(min-width:768px)]:h-[550px] [@media(min-width:468px)]:h-[450px] [@media(min-width:360px)]:h-[350px] h-[310px] absolute [@media(min-width:1434px)]:right-[-100px] [@media(min-width:1375px)]:right-[-70px] [@media(min-width:1310px)]:right-[-40px] right-[0px] desktop3:top-[-150px] desktop3:bottom-[] bottom-0 z-0 select-none flex">
+          <img src={partical1} className="w-[100%] h-[100%] select-none blur-[75px]" />
+        </div>
+
         <div className="flex desktop3:flex-row flex-wrap w-full xl:py-0 py-[1.3rem] lg:justify-around desktop3:justify-between justify-center text-black z-10">
           <div className="stext1:w-[615px] lg:w-[500px] sm5:w-[450px] sm4:w-[370px] sm3:w-[330px] w-[300px] stext1:h-[600px] lg:h-[550px] sm5:h-[480px] sm4:h-[400px] sm3:h-[375px] h-[360px] flex justify-center relative">
             <div
@@ -76,10 +87,7 @@ const About = () => {
             className="desktop4:w-[465px] desktop3:w-[415px] sm2:w-[530px] w-[98%] text-white desktop3:text-left text-center desktop3:mt-[0px] mt-[40px] relative"
             data-aos="zoom-in"
           >
-            {/* partical */}
-            <div className="w-[500px] h-[500px] absolute [@media(min-width:1374px)]:right-[-100px] [@media(min-width:1248px)]:right-[-50px] right-0 bottom-[-150px] z-0 select-none flex">
-          <img src={partical2} className="w-[100%] h-[100%] select-none blur-[75px]" />
-        </div>
+
 
         {/* content */}
             <p className="text-[20px] font-bold z-10 relative">My Bio</p>
