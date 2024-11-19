@@ -114,7 +114,7 @@ function Navber() {
             {/* ---------------Mobile Nav Item--------------- */}
             <div
               className={`absolute top-0 left-0 w-full h-[100vh] bg-[#1e1345ed] z-0 ${
-                nevMobileVButton ? "flex sm:hidden" : "hidden"
+                nevMobileVButton ? "flex [@media(min-width:715px)]:hidden" : "hidden"
               }`}
             >
               <div className="w-full h-full flex flex-col justify-center items-center">
