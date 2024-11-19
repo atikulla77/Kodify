@@ -28,7 +28,7 @@ const Service = () => {
       <div className="[@media(min-width:768px)]:w-[550px] [@media(min-width:468px)]:w-[450px] [@media(min-width:360px)]:w-[350px] w-[310px] [@media(min-width:768px)]:h-[550px] [@media(min-width:468px)]:h-[450px] [@media(min-width:360px)]:h-[350px] h-[310px] absolute [@media(min-width:1434px)]:right-[-100px] [@media(min-width:1375px)]:right-[-70px] [@media(min-width:1310px)]:right-[-40px] right-[0px] top-[-150px] z-0 select-none flex">
           <img src={partical1} className="w-[100%] h-[100%] select-none blur-[75px]" />
         </div>
-        <div className="[@media(min-width:768px)]:w-[550px] [@media(min-width:468px)]:w-[450px] [@media(min-width:360px)]:w-[350px] w-[310px] [@media(min-width:768px)]:h-[550px] [@media(min-width:468px)]:h-[450px] [@media(min-width:360px)]:h-[350px] h-[310px] absolute [@media(min-width:1434px)]:left-[-100px] [@media(min-width:1375px)]:left-[-70px] [@media(min-width:1310px)]:left-[-40px] left-[0px] bottom-[-150px] z-0 select-none flex">
+        <div className="[@media(min-width:768px)]:w-[550px] [@media(min-width:468px)]:w-[430px] [@media(min-width:360px)]:w-[335px] w-[310px] [@media(min-width:768px)]:h-[550px] [@media(min-width:468px)]:h-[430px] [@media(min-width:360px)]:h-[335px] h-[310px] absolute [@media(min-width:1434px)]:left-[-100px] [@media(min-width:1375px)]:left-[-70px] [@media(min-width:1310px)]:left-[-40px] left-[0px] bottom-[-150px] z-0 select-none flex">
           <img src={partical1} className="w-[100%] h-[100%] select-none blur-[75px]" />
         </div>
 
