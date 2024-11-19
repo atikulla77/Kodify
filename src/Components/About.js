@@ -4,6 +4,10 @@ import web_kit_mask_main_image from "../image/about/web_kit_mask_main_image.png"
 import image from "../image/about/image.jpg";
 import raward from "../image/about/raward.png";
 
+
+import partical1 from "../image/background-light-Effect.png";
+import partical2 from "../image/background-light-Effect2.png";
+
 const About = () => {
   return (
     <main
@@ -72,6 +76,12 @@ const About = () => {
             className="desktop4:w-[465px] desktop3:w-[415px] sm2:w-[530px] w-[98%] text-white desktop3:text-left text-center desktop3:mt-[0px] mt-[40px] relative"
             data-aos="zoom-in"
           >
+            {/* partical */}
+            <div className="w-[500px] h-[500px] absolute [@media(min-width:1374px)]:right-[-100px] [@media(min-width:1248px)]:right-[-50px] right-0 bottom-[-150px] z-0 select-none flex">
+          <img src={partical2} className="w-[100%] h-[100%] select-none blur-[75px]" />
+        </div>
+
+        {/* content */}
             <p className="text-[20px] font-bold z-10 relative">My Bio</p>
             <p className="sm2:text-[15px] sm5:text-[14px] text-[13px] sm2:font-extralight font-thin text-[#ffffffab] sm4:pt-[13px] pt-[5px] sm2:tracking-[0.3px] tracking-[0.2px] sm2:leading-[21px] leading-[18px] z-10 relative">
               <span className="  ">

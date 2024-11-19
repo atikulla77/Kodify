@@ -25,18 +25,16 @@ function Portfolio() {
     {
       id: 2,
       img: projectPic2,
-      name: "Badshah Agency",
-      link: "https://badshah-agency.vercel.app/",
+      name: "Kitoo",
+      link: "https://kitoo-zeta.vercel.app/",
       language: [
         { id: 1, name: "HTML" },
         { id: 2, name: "CSS" },
         { id: 3, name: "Tailwind" },
         { id: 4, name: "JavaScript" },
         { id: 5, name: "React JS" },
-        { id: 6, name: "React Router" },
-        { id: 7, name: "Node JS" },
-      ],
-    },
+        { id: 6, name: "Node JS" },
+      ],},
     {
       id: 3,
       img: projectPic3,
@@ -48,10 +46,10 @@ function Portfolio() {
         { id: 3, name: "Tailwind" },
         { id: 4, name: "JavaScript" },
         { id: 5, name: "React JS" },
-        { id: 6, name: "React Router" },
-        { id: 7, name: "Node JS" },
+        { id: 6, name: "Node JS" },
       ],
     },
+    
   ];
   return (
     <div>

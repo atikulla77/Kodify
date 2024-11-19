@@ -1,4 +1,6 @@
 import React from "react";
+import partical1 from "../image/background-light-Effect.png";
+import partical2 from "../image/background-light-Effect2.png";
 
 function Skill() {
   const skillDeta = [
@@ -57,7 +59,11 @@ function Skill() {
             Here are the technologies i'm proficient in
           </p>
         </div>
-        <div className="py-[10px] flex flex-wrap sm:w-[30rem] md:w-[47rem] lg:w-[60rem] mx-auto w-full justify-between items-center">
+        <div className="py-[10px] flex flex-wrap sm:w-[30rem] md:w-[47rem] lg:w-[60rem] mx-auto w-full justify-between items-center relative">
+                      {/* partical */}
+                      {/* <div className="w-[500px] h-[500px] absolute [@media(min-width:768px)]:right-[-100px] right-0 top-[-300px] z-0 select-none flex">
+          <img src={partical1} className="w-[100%] h-[100%] select-none" />
+        </div> */}
           {skillDeta.map((key) => {
             return (
               <div
