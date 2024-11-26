@@ -109,14 +109,14 @@ body{
   border-radius: 16px;
 }
 
-.why_choose_us_box::before {
+/* .why_choose_us_box::before {
   content: "";
   position: absolute;
   width: 80px;
   height: 155%;
   background: linear-gradient(#03BFFF, #03BFFF);
   animation: animate 4s linear infinite;
-}
+} */
 
 .why_choose_us_box_container::after{
   content: "";
