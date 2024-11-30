@@ -11,7 +11,8 @@ import partical2 from "../image/background-light-Effect2.png";
 import { TbBrandGithub } from "react-icons/tb";
 import { FiLinkedin } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa6";
-import { FiFacebook } from "react-icons/fi";
+import { FaBehance } from "react-icons/fa";
+
 
 import { Link } from "react-scroll";
 
@@ -84,32 +85,32 @@ function Home() {
               Get Connected
             </Link>
             <a
-              href="https://www.fiverr.com/hapshakhatun"
+              href="https://github.com/atikulla77"
               target="_blank"
               className="[@media(min-width:530px)]:w-[40px] [@media(min-width:360px)]:w-[38px] w-[35px] [@media(min-width:530px)]:h-[40px] [@media(min-width:360px)]:h-[38px] h-[35px] [@media(min-width:360px)]:ml-[10px] ml-[8px] [@media(min-width:360px)]:mr-[5px] mr-[3px] border-[2px] border-[#03BFFF] text-[#03BFFF] flex justify-center items-center rounded-[50%] cursor-pointer social_icon_hover transition-[0.3s] pl-[1px] pt-[1px]"
             >
               <TbBrandGithub className="[@media(min-width:530px)]:text-[24px] [@media(min-width:360px)]:text-[22px] text-[18px]" />
             </a>
             <a
-              href="https://www.linkedin.com/in/[@media(min-width:768px)]-moharom-5bab5b161/"
+              href="https://www.linkedin.com/in/razaul-karim-1807b0339/"
               target="_blank"
               className="[@media(min-width:530px)]:w-[40px] [@media(min-width:360px)]:w-[38px] w-[35px] [@media(min-width:530px)]:h-[40px] [@media(min-width:360px)]:h-[38px] h-[35px] [@media(min-width:360px)]:mx-[5px] mx-[3px] border-[2px] border-[#03BFFF] text-[#03BFFF] flex justify-center items-center rounded-[50%] cursor-pointer social_icon_hover transition-[0.3s]"
             >
               <FiLinkedin className="[@media(min-width:530px)]:text-[19px] [@media(min-width:360px)]:text-[17px] text-[15px]" />
             </a>
             <a
-              href="https://www.upwork.com/freelancers/~0125a8b16776daf98f"
+              href="https://www.instagram.com/mdatikulla1/"
               target="_blank"
               className="[@media(min-width:530px)]:w-[40px] [@media(min-width:360px)]:w-[38px] w-[35px] [@media(min-width:530px)]:h-[40px] [@media(min-width:360px)]:h-[38px] h-[35px] [@media(min-width:360px)]:mx-[5px] mx-[3px] border-[2px] border-[#03BFFF] text-[#03BFFF] flex justify-center items-center rounded-[50%] cursor-pointer social_icon_hover transition-[0.3s]"
             >
               <FaInstagram className="[@media(min-width:530px)]:text-[21px] [@media(min-width:360px)]:text-[19px] text-[17px]" />
             </a>
             <a
-              href="https://www.facebook.com/moharom.badsha"
+              href="https://www.behance.net/mdatikulla1"
               target="_blank"
               className="[@media(min-width:530px)]:w-[40px] [@media(min-width:360px)]:w-[38px] w-[35px] [@media(min-width:530px)]:h-[40px] [@media(min-width:360px)]:h-[38px] h-[35px] [@media(min-width:360px)]:ml-[5px] ml-[3px] border-[2px] border-[#03BFFF] text-[#03BFFF] flex justify-center items-center rounded-[50%] cursor-pointer social_icon_hover transition-[0.3s]"
             >
-              <FiFacebook className="[@media(min-width:530px)]:text-[20px] [@media(min-width:360px)]:text-[18px] text-[16px] [@media(min-width:530px)]:ml-[-2px] ml-[-1px]" />
+              <FaBehance className="[@media(min-width:530px)]:text-[20px] [@media(min-width:360px)]:text-[18px] text-[16px]" />
             </a>
           </div>
         </div>

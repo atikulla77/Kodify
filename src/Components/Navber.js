@@ -63,8 +63,8 @@ function Navber() {
         style={{ transition: ".1s ease-in" }}
       >
         <div
-          className="mx-auto px-2 [@media(min-width:715px)]:px-6 lg:px-[0] xl:w-[1230px] w-[96%]"
-          data-aos="fade-down"
+          className="mx-auto px-0 xl:w-[1230px] [@media(min-width:715px)]:w-[96%] w-[90%]"
+          // data-aos="fade-down"
         >
           <div className="items-center [@media(min-width:530px)]:h-[5rem] h-[4rem] flex justify-between w-full GeologicaFont">
             <Link to="Home" className="flex items-center z-[2]">
