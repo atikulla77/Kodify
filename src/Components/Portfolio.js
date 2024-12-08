@@ -2,6 +2,7 @@ import React from "react";
 import projectPic1 from "../image/portfolio/project_1.png";
 import projectPic2 from "../image/portfolio/project_2.png";
 import projectPic3 from "../image/portfolio/project_3.png";
+import projectPic4 from "../image/portfolio/project_4.png";
 
 import { FaArrowRight } from "react-icons/fa6";
 
@@ -34,7 +35,8 @@ function Portfolio() {
         { id: 4, name: "JavaScript" },
         { id: 5, name: "React JS" },
         { id: 6, name: "Node JS" },
-      ],},
+      ],
+    },
     {
       id: 3,
       img: projectPic3,
@@ -49,7 +51,20 @@ function Portfolio() {
         { id: 6, name: "Node JS" },
       ],
     },
-    
+    {
+      id: 4,
+      img: projectPic4,
+      name: "DevDock",
+      link: "https://devdockui.vercel.app/",
+      language: [
+        { id: 1, name: "HTML" },
+        { id: 2, name: "CSS" },
+        { id: 3, name: "Tailwind" },
+        { id: 4, name: "JavaScript" },
+        { id: 5, name: "React JS" },
+        { id: 6, name: "Node JS" },
+      ],
+    },
   ];
   return (
     <div>
@@ -112,16 +127,16 @@ function Portfolio() {
                           alt=""
                         />
                         <div className="absolute bottom-0 right-0 [@media(min-width:640px)]:h-[30px] h-[25px] [@media(min-width:360px)]:w-[100px] w-[90px] bg-[#0a012a] text-right flex justify-start items-end rounded-tl-[5px] [@media(min-width:460px)]:rounded-br-[8px] [@media(min-width:360px)]:rounded-br-[4px] rounded-br-[3px] pl-[10px] ">
-                        <a
-                          href={catagory.link}
-                          target="_blank"
-                          className="h-[100%] [@media(min-width:640px)]:w-[85px] [@media(min-width:475px)]:w-[80px] [@media(min-width:360px)]:w-[70px] w-[65px] [@media(min-width:640px)]:hover:w-[101px] [@media(min-width:475px)]:hover:w-[85px] [@media(min-width:360px)]:hover:w-[75px] hover:w-[70px] text-white hover:text-white cursor-pointer text-right flex justify-start items-center transition-[0.3s] "
-                        >
-                          <p className="[@media(min-width:640px)]:text-[13px] [@media(min-width:475px)]:text-[12px] [@media(min-width:360px)]:text-[11px] text-[10px] flex items-center justify-between w-full">
-                            <span>Live Demo</span>{" "}
-                            <FaArrowRight className="[@media(min-width:640px)]:text-[14px] [@media(min-width:475px)]:text-[13px] [@media(min-width:360px)]:text-[11px] text-[10px]" />
-                          </p>
-                        </a>
+                          <a
+                            href={catagory.link}
+                            target="_blank"
+                            className="h-[100%] [@media(min-width:640px)]:w-[85px] [@media(min-width:475px)]:w-[80px] [@media(min-width:360px)]:w-[70px] w-[65px] [@media(min-width:640px)]:hover:w-[101px] [@media(min-width:475px)]:hover:w-[85px] [@media(min-width:360px)]:hover:w-[75px] hover:w-[70px] text-white hover:text-white cursor-pointer text-right flex justify-start items-center transition-[0.3s] "
+                          >
+                            <p className="[@media(min-width:640px)]:text-[13px] [@media(min-width:475px)]:text-[12px] [@media(min-width:360px)]:text-[11px] text-[10px] flex items-center justify-between w-full">
+                              <span>Live Demo</span>{" "}
+                              <FaArrowRight className="[@media(min-width:640px)]:text-[14px] [@media(min-width:475px)]:text-[13px] [@media(min-width:360px)]:text-[11px] text-[10px]" />
+                            </p>
+                          </a>
                         </div>
                       </div>
                       <div className="flex flex-wrap pt-[10px] [@media(min-width:640px)]:pl-0 pl-[5px]">
@@ -131,7 +146,9 @@ function Portfolio() {
                               key={key.id}
                               className="[@media(min-width:640px)]:py-[4px] py-[2px] [@media(min-width:640px)]:px-[8px] px-[4px] [@media(min-width:640px)]:mr-[5px] mr-[3px] [@media(min-width:640px)]:mb-[8px] mb-[5px] text-[white] border-[1px] border-[#ffffff42] rounded-[7px]"
                             >
-                              <p className="[@media(min-width:450px)]:text-[12px] [@media(min-width:400px)]:text-[10px] [@media(min-width:360px)]:text-[9px] text-[8px]">{key.name}</p>
+                              <p className="[@media(min-width:450px)]:text-[12px] [@media(min-width:400px)]:text-[10px] [@media(min-width:360px)]:text-[9px] text-[8px]">
+                                {key.name}
+                              </p>
                             </div>
                           );
                         })}
