@@ -4,6 +4,7 @@ import projectPic2 from "../image/portfolio/project_2.png";
 import projectPic3 from "../image/portfolio/project_3.png";
 import projectPic4 from "../image/portfolio/project_4.png";
 import projectPic5 from "../image/portfolio/project_5.png";
+import projectPic6 from "../image/portfolio/project_6.png";
 
 import { FaArrowRight } from "react-icons/fa6";
 
@@ -71,6 +72,20 @@ function Portfolio() {
       img: projectPic5,
       name: "WebstreX",
       link: "https://webstrex.vercel.app/",
+      language: [
+        { id: 1, name: "HTML" },
+        { id: 2, name: "CSS" },
+        { id: 3, name: "Tailwind" },
+        { id: 4, name: "JavaScript" },
+        { id: 5, name: "React JS" },
+        { id: 6, name: "Node JS" },
+      ],
+    },
+    {
+      id: 6,
+      img: projectPic6,
+      name: "SparxDev",
+      link: "https://sparxdev.vercel.app/",
       language: [
         { id: 1, name: "HTML" },
         { id: 2, name: "CSS" },
