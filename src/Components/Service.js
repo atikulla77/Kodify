@@ -45,7 +45,7 @@ const Service = () => {
               <p className="sm3:text-[20px] text-[18px] font-[600] text-[#fff] pt-[10px]">
                 Custom Web Development
               </p>
-              <p className="text-[#d8d8d8] sm5:text-[15px] sm3:text-[13px] text-[12px] sm5:leading-[1.4] sm3:leading-[1.2] leading-[1.3] tracking-[0.03em] mt-[0]">
+              <p className="text-[#d8d8d8] sm5:text-[14px] sm3:text-[13px] text-[12px] sm5:leading-[1.4] sm3:leading-[1.2] leading-[1.3] tracking-[0.03em] mt-[0]">
                 Build fully customized websites that cater to your specific
                 business needs. Expertise in front-end and back-end development
                 using the latest technologies
@@ -65,7 +65,7 @@ const Service = () => {
               <p className="sm3:text-[20px] text-[18px] font-[600] text-[#fff] pt-[10px]">
                 Responsive Web Design
               </p>
-              <p className="text-[#d8d8d8] sm5:text-[15px] sm3:text-[13px] text-[12px] sm5:leading-[1.4] sm3:leading-[1.2] leading-[1.3] tracking-[0.03em] mt-[0]">
+              <p className="text-[#d8d8d8] sm5:text-[14px] sm3:text-[13px] text-[12px] sm5:leading-[1.4] sm3:leading-[1.2] leading-[1.3] tracking-[0.03em] mt-[0]">
                 Creating mobile-first, responsive websites that look great on
                 all devices. I ensure your site is functional and user-friendly
                 across desktops, tablets, and mobile phones.
@@ -85,7 +85,7 @@ const Service = () => {
               <p className="sm3:text-[20px] text-[18px] font-[600] text-[#fff] pt-[10px]">
                 E-Commerce Solutions
               </p>
-              <p className="text-[#d8d8d8] sm5:text-[15px] sm3:text-[13px] text-[12px] sm5:leading-[1.4] sm3:leading-[1.2] leading-[1.3] tracking-[0.03em] mt-[0]">
+              <p className="text-[#d8d8d8] sm5:text-[14px] sm3:text-[13px] text-[12px] sm5:leading-[1.4] sm3:leading-[1.2] leading-[1.3] tracking-[0.03em] mt-[0]">
                 Helping businesses set up online stores with platforms like
                 Shopify, WooCommerce, or custom-built solutions. Integrated
                 payment systems and intuitive user experiences.
@@ -105,7 +105,7 @@ const Service = () => {
               <p className="sm3:text-[20px] text-[18px] font-[600] text-[#fff] pt-[10px]">
                 Website Maintenance & Support
               </p>
-              <p className="text-[#d8d8d8] sm5:text-[15px] sm3:text-[13px] text-[12px] sm5:leading-[1.4] sm3:leading-[1.2] leading-[1.3] tracking-[0.03em] mt-[0]">
+              <p className="text-[#d8d8d8] sm5:text-[14px] sm3:text-[13px] text-[12px] sm5:leading-[1.4] sm3:leading-[1.2] leading-[1.3] tracking-[0.03em] mt-[0]">
                 Ongoing maintenance, performance optimization, and updates to
                 ensure your site is secure, fast, and up to date.
               </p>
@@ -124,7 +124,7 @@ const Service = () => {
               <p className="sm3:text-[20px] text-[18px] font-[600] text-[#fff] pt-[10px]">
                 Web Application Development
               </p>
-              <p className="text-[#d8d8d8] sm5:text-[15px] sm3:text-[13px] text-[12px] sm5:leading-[1.4] sm3:leading-[1.2] leading-[1.3] tracking-[0.03em] mt-[0]">
+              <p className="text-[#d8d8d8] sm5:text-[14px] sm3:text-[13px] text-[12px] sm5:leading-[1.4] sm3:leading-[1.2] leading-[1.3] tracking-[0.03em] mt-[0]">
                 Developing dynamic, interactive web applications tailored to
                 your business needs using modern frameworks and tools.
               </p>
@@ -143,7 +143,7 @@ const Service = () => {
               <p className="sm3:text-[20px] text-[18px] font-[600] text-[#fff] pt-[10px]">
                 UX/UI Design
               </p>
-              <p className="text-[#d8d8d8] sm5:text-[15px] sm3:text-[13px] text-[12px] sm5:leading-[1.4] sm3:leading-[1.2] leading-[1.3] tracking-[0.03em] mt-[0] ">
+              <p className="text-[#d8d8d8] sm5:text-[14px] sm3:text-[13px] text-[12px] sm5:leading-[1.4] sm3:leading-[1.2] leading-[1.3] tracking-[0.03em] mt-[0] ">
                 Designing intuitive and user-friendly interfaces that provide a
                 seamless experience for your audience
               </p>
