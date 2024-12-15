@@ -1,16 +1,5 @@
-body{
-  overflow-x: hidden;
-}
-::-webkit-scrollbar {
-  width: 8px;
-}
-::-webkit-scrollbar-track {
-  background: #f5f5f5;
-  border-radius: 10px;
-}
-::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background: #ccc;
+html{
+  scrollbar-width: none;
 }
 
 /* =-=-=-=-=-=-=-=-=-=-=-=Home=-=-=-=-=-=-=-=-=-=-=-= */

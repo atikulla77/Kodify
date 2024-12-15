@@ -1,19 +1,29 @@
-import React from "react";
-import projectPic1 from "../image/portfolio/project_1.png";
-import projectPic2 from "../image/portfolio/project_2.png";
-import projectPic3 from "../image/portfolio/project_3.png";
-import projectPic4 from "../image/portfolio/project_4.png";
-import projectPic5 from "../image/portfolio/project_5.png";
-import projectPic6 from "../image/portfolio/project_6.png";
+import React, { useState } from "react";
+
+import webDesign1 from "../image/portfolio/1_PixPix_ScreenShot.png";
+import webDesign2 from "../image/portfolio/2_Kitoo_ScreenShot.png";
+import webDesign3 from "../image/portfolio/3_Leadbie_ScreenShot.png";
+import webDesign4 from "../image/portfolio/4_DevDock_ScreenShot.png";
+import webDesign5 from "../image/portfolio/5_WebstreX_ScreenShot.png";
+import webDesign6 from "../image/portfolio/6_SparxDev_ScreenShot.png";
+
+import fullViewDesign1 from "../image/portfolio/1_PixPix_Full_Web_View.png";
+import fullViewDesign2 from "../image/portfolio/2_Kitoo_Full_Web_View.png";
+import fullViewDesign3 from "../image/portfolio/3_Leadbie_Full_Web_View.png";
+import fullViewDesign4 from "../image/portfolio/4_DevDock_Full_Web_View.png";
+import fullViewDesign5 from "../image/portfolio/5_WebstreX_Full_Web_View.png";
+import fullViewDesign6 from "../image/portfolio/6_SparxDev_Full_Web_View.png";
 
 import { FaArrowRight } from "react-icons/fa6";
 
 function Portfolio() {
+  const [showModal, setShowModal] = useState(false)
   const projectsData = [
     {
       id: 1,
-      img: projectPic1,
+      img: webDesign1,
       name: "PixPix",
+      fullView: fullViewDesign1,
       link: "https://pixpix.vercel.app/",
       language: [
         { id: 1, name: "HTML" },
@@ -27,8 +37,9 @@ function Portfolio() {
     },
     {
       id: 2,
-      img: projectPic2,
+      img: webDesign2,
       name: "Kitoo",
+      fullView: fullViewDesign2,
       link: "https://kitoo-zeta.vercel.app/",
       language: [
         { id: 1, name: "HTML" },
@@ -41,8 +52,9 @@ function Portfolio() {
     },
     {
       id: 3,
-      img: projectPic3,
+      img: webDesign3,
       name: "LeadBie",
+      fullView: fullViewDesign3,
       link: "https://leadbie.vercel.app/",
       language: [
         { id: 1, name: "HTML" },
@@ -55,8 +67,9 @@ function Portfolio() {
     },
     {
       id: 4,
-      img: projectPic4,
+      img: webDesign4,
       name: "DevDock",
+      fullView: fullViewDesign4,
       link: "https://devdockui.vercel.app/",
       language: [
         { id: 1, name: "HTML" },
@@ -69,8 +82,9 @@ function Portfolio() {
     },
     {
       id: 5,
-      img: projectPic5,
+      img: webDesign5,
       name: "WebstreX",
+      fullView: fullViewDesign5,
       link: "https://webstrex.vercel.app/",
       language: [
         { id: 1, name: "HTML" },
@@ -83,8 +97,9 @@ function Portfolio() {
     },
     {
       id: 6,
-      img: projectPic6,
+      img: webDesign6,
       name: "SparxDev",
+      fullView: fullViewDesign6,
       link: "https://sparxdev.vercel.app/",
       language: [
         { id: 1, name: "HTML" },
@@ -117,6 +132,7 @@ function Portfolio() {
                 <label
                   htmlFor={`my_modal_${catagory.id}`}
                   data-aos="fade-up"
+                  onClick={() => {setShowModal(true)}}
                   className="[@media(min-width:430px)]:w-[365px] [@media(min-width:350px)]:w-[320px] w-[300px] [@media(min-width:430px)]:h-[205px] [@media(min-width:350px)]:h-[180px] h-[170px] rounded-[10px] bg-[#261856] overflow-hidden projectCardAnimation mb-[30px] relative flex justify-center items-center shadow-[0px_0px_6px_0px_#0000000f] mx-[10px]"
                 >
                   <div className="w-[100%] h-[100%] rounded-[10px] overflow-hidden">
@@ -147,46 +163,33 @@ function Portfolio() {
                   id={`my_modal_${catagory.id}`}
                   className="modal-toggle"
                 />
-                <div className="modal GeologicaFont" role="dialog">
-                  <div className="modal-box [@media(min-width:640px)]:px-[1rem] px-[0px] [@media(min-width:640px)]:pt-[1rem] pt-[0px] [@media(min-width:640px)]:pb-[7px] pb-[3px] max-w-[55rem] bg-[#0a012a]">
-                    <div className="w-[100%] h-[100%] [@media(min-width:475px)]:rounded-[10px] rounded-[5px] overflow-hidden">
-                      <div className="w-full relative">
-                        <img
-                          src={catagory.img}
-                          className="w-[100%] cursor-pointer [@media(min-width:475px)]:rounded-[10px] rounded-[5px]"
-                          alt=""
-                        />
-                        <div className="absolute bottom-0 right-0 [@media(min-width:640px)]:h-[30px] h-[25px] [@media(min-width:360px)]:w-[100px] w-[90px] bg-[#0a012a] text-right flex justify-start items-end rounded-tl-[5px] [@media(min-width:460px)]:rounded-br-[8px] [@media(min-width:360px)]:rounded-br-[4px] rounded-br-[3px] pl-[10px] ">
-                          <a
-                            href={catagory.link}
-                            target="_blank"
-                            className="h-[100%] [@media(min-width:640px)]:w-[85px] [@media(min-width:475px)]:w-[80px] [@media(min-width:360px)]:w-[70px] w-[65px] [@media(min-width:640px)]:hover:w-[101px] [@media(min-width:475px)]:hover:w-[85px] [@media(min-width:360px)]:hover:w-[75px] hover:w-[70px] text-white hover:text-white cursor-pointer text-right flex justify-start items-center transition-[0.3s] "
-                          >
-                            <p className="[@media(min-width:640px)]:text-[13px] [@media(min-width:475px)]:text-[12px] [@media(min-width:360px)]:text-[11px] text-[10px] flex items-center justify-between w-full">
-                              <span>Live Demo</span>{" "}
-                              <FaArrowRight className="[@media(min-width:640px)]:text-[14px] [@media(min-width:475px)]:text-[13px] [@media(min-width:360px)]:text-[11px] text-[10px]" />
-                            </p>
-                          </a>
-                        </div>
-                      </div>
-                      <div className="flex flex-wrap pt-[10px] [@media(min-width:640px)]:pl-0 pl-[5px]">
-                        {catagory.language.map((key) => {
-                          return (
-                            <div
-                              key={key.id}
-                              className="[@media(min-width:640px)]:py-[4px] py-[2px] [@media(min-width:640px)]:px-[8px] px-[4px] [@media(min-width:640px)]:mr-[5px] mr-[3px] [@media(min-width:640px)]:mb-[8px] mb-[5px] text-[white] border-[1px] border-[#ffffff42] rounded-[7px]"
-                            >
-                              <p className="[@media(min-width:450px)]:text-[12px] [@media(min-width:400px)]:text-[10px] [@media(min-width:360px)]:text-[9px] text-[8px]">
-                                {key.name}
-                              </p>
-                            </div>
-                          );
-                        })}
+                <div className={`modal GeologicaFont`} role="dialog">
+                  <div
+                    className="modal-box [@media(min-width:640px)]:px-[1rem] px-[5px] [@media(min-width:640px)]:py-[1rem] py-[5px] max-w-[55rem] [@media(min-width:640px)]:!h-[30rem] [@media(min-width:480px)]:h-[22rem] h-[18rem] bg-[#fffffff0] !rounded-none cursor-default scrollbar-hide"
+                  >
+                    <div className="w-full overflow-y-hidden relative">
+                      <img
+                        src={catagory.fullView}
+                        className="w-[100%]"
+                        alt=""
+                      />
+                      <div className="absolute bottom-0 right-0 [@media(min-width:640px)]:h-[30px] h-[25px] [@media(min-width:360px)]:w-[100px] w-[90px] bg-[#fff] text-right flex justify-start items-end pl-[10px] ">
+                        <a
+                          href={catagory.link}
+                          target="_blank"
+                          className="h-[100%] [@media(min-width:640px)]:w-[85px] [@media(min-width:475px)]:w-[80px] [@media(min-width:360px)]:w-[70px] w-[65px] [@media(min-width:640px)]:hover:w-[101px] [@media(min-width:475px)]:hover:w-[85px] [@media(min-width:360px)]:hover:w-[75px] hover:w-[70px] cursor-pointer text-right flex justify-start items-center transition-[0.3s] "
+                        >
+                          <p className="[@media(min-width:640px)]:text-[13px] [@media(min-width:475px)]:text-[12px] [@media(min-width:360px)]:text-[11px] text-[10px] flex items-center justify-between w-full text-black">
+                            <span>Live Demo</span>{" "}
+                            <FaArrowRight className="[@media(min-width:640px)]:text-[14px] [@media(min-width:475px)]:text-[13px] [@media(min-width:360px)]:text-[11px] text-[10px]" />
+                          </p>
+                        </a>
                       </div>
                     </div>
                   </div>
                   <label
                     className="modal-backdrop"
+                  onClick={() => {setShowModal(false)}}
                     htmlFor={`my_modal_${catagory.id}`}
                   >
                     Close

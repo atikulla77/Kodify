@@ -29,5 +29,5 @@ module.exports = {
       "2xl": "1536px",
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui"), require("tailwind-scrollbar-hide")],
 };
