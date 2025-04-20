@@ -131,7 +131,7 @@ const Contact = () => {
                     autoComplete="off"
                     required
                     placeholder=""
-                    className="inputStyleIng  border-[2px] border-[#98989887] text-white text-sm rounded-lg focus:ring-[#03bfff] focus:border-[#98989887] block w-full p-2.5 dark:!bg-transparent dark:border-[#98989887] placeholder-[#pffffff9c] dark:focus:ring-[#03bfff] dark:focus:border-[#03bfff] font-[500] outline-none"
+                    className="inputStyleIng bg-transparent border-[2px] border-[#98989887] text-white text-sm rounded-lg focus:ring-[#03bfff] focus:border-[#98989887] block w-full p-2.5 dark:!bg-transparent dark:border-[#98989887] placeholder-[#pffffff9c] dark:focus:ring-[#03bfff] dark:focus:border-[#03bfff] font-[500] outline-none"
                   />
                   <span className="inputStyleIngText text-sm text-white text-opacity-80 bg-[#0a012a] absolute left-2 top-3 px-1 transition duration-200 input-text cursor-text">
                     Your Name
@@ -149,7 +149,7 @@ const Contact = () => {
                     autoComplete="off"
                     required
                     placeholder=""
-                    className="inputStyleIng  border-[2px] border-[#98989887] text-white text-sm rounded-lg focus:ring-[#03bfff] focus:border-[#98989887] block w-full p-2.5 dark:!bg-transparent dark:border-[#98989887] placeholder-[#pffffff9c] dark:focus:ring-[#03bfff] dark:focus:border-[#03bfff] font-[500] outline-none"
+                    className="inputStyleIng bg-transparent border-[2px] border-[#98989887] text-white text-sm rounded-lg focus:ring-[#03bfff] focus:border-[#98989887] block w-full p-2.5 dark:!bg-transparent dark:border-[#98989887] placeholder-[#pffffff9c] dark:focus:ring-[#03bfff] dark:focus:border-[#03bfff] font-[500] outline-none"
                   />
                   <span className="inputStyleIngText text-sm text-white text-opacity-80 bg-[#0a012a] absolute left-2 top-3 px-1 transition duration-200 input-text cursor-text">
                     Email address
@@ -165,7 +165,7 @@ const Contact = () => {
                     autoComplete="off"
                     required
                     placeholder=""
-                    className="inputStyleIng  border-[2px] border-[#98989887] text-white text-sm rounded-lg focus:ring-[#03bfff] focus:border-[#98989887] block w-full p-2.5 dark:!bg-transparent dark:border-[#98989887] placeholder-[#pffffff9c] dark:focus:ring-[#03bfff] dark:focus:border-[#03bfff] font-[500] outline-none"
+                    className="inputStyleIng bg-transparent border-[2px] border-[#98989887] text-white text-sm rounded-lg focus:ring-[#03bfff] focus:border-[#98989887] block w-full p-2.5 dark:!bg-transparent dark:border-[#98989887] placeholder-[#pffffff9c] dark:focus:ring-[#03bfff] dark:focus:border-[#03bfff] font-[500] outline-none"
                   />
                   <span className="inputStyleIngText text-sm text-white text-opacity-80 bg-[#0a012a] absolute left-2 top-3 px-1 transition duration-200 input-text cursor-text">
                     Your Phone
@@ -183,7 +183,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     placeholder=""
-                    className="inputStyleIng  border-[2px] border-[#98989887] text-white text-sm rounded-lg focus:ring-[#03bfff] focus:border-[#98989887] block w-full p-2.5 dark:!bg-transparent dark:border-[#98989887] placeholder-[#pffffff9c] dark:focus:ring-[#03bfff] dark:focus:border-[#03bfff] font-[500] outline-none"
+                    className="inputStyleIng bg-transparent border-[2px] border-[#98989887] text-white text-sm rounded-lg focus:ring-[#03bfff] focus:border-[#98989887] block w-full p-2.5 dark:!bg-transparent dark:border-[#98989887] placeholder-[#pffffff9c] dark:focus:ring-[#03bfff] dark:focus:border-[#03bfff] font-[500] outline-none"
                   />
                   <span className="inputStyleIngText text-sm text-white text-opacity-80 bg-[#0a012a] absolute left-2 top-3 px-1 transition duration-200 input-text cursor-text">
                     Subject
@@ -202,7 +202,7 @@ const Contact = () => {
                     required
                     rows="8 "
                     placeholder=""
-                    className="inputStyleIng  border-[2px] border-[#98989887] text-white text-sm rounded-lg focus:ring-[#03bfff] focus:border-[#98989887] block w-full p-2.5 dark:!bg-transparent dark:border-[#98989887] placeholder-[#pffffff9c] dark:focus:ring-[#03bfff] dark:focus:border-[#03bfff] font-[500] outline-none"
+                    className="inputStyleIng bg-transparent border-[2px] border-[#98989887] text-white text-sm rounded-lg focus:ring-[#03bfff] focus:border-[#98989887] block w-full p-2.5 dark:!bg-transparent dark:border-[#98989887] placeholder-[#pffffff9c] dark:focus:ring-[#03bfff] dark:focus:border-[#03bfff] font-[500] outline-none"
                   />
                   <span className="inputStyleIngText text-sm text-white text-opacity-80 bg-[#0a012a] absolute left-2 top-3 px-1 transition duration-200 input-text cursor-text">
                     Your message

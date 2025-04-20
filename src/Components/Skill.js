@@ -79,7 +79,7 @@ function Skill() {
                 key={key.id}
                 className="lg:w-[28rem] sm:w-[23rem] w-full mx-auto sm:!px-[10px] [@media(min-width:490px)]:px-[3rem] px-[1rem] [@media(min-width:450px)]:py-[15px] py-[10px] relative z-[2]"
               >
-                <p className="[@media(min-width:450px)]:text-[15px] [@media(min-width:400px)]:text-[14px] text-[13px] font-[500] [@media(min-width:450px)]:pb-[5px] pb-[3px]">
+                <p className="text-[#ffffffde] [@media(min-width:450px)]:text-[15px] [@media(min-width:400px)]:text-[14px] text-[13px] font-[500] [@media(min-width:450px)]:pb-[5px] pb-[3px]">
                   {key.name}
                 </p>
 
