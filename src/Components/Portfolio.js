@@ -1,18 +1,18 @@
 import React, { useState } from "react";
 
-import webDesign1 from "../image/portfolio/1_PixPix_ScreenShot.png";
-import webDesign2 from "../image/portfolio/2_Kitoo_ScreenShot.png";
-import webDesign3 from "../image/portfolio/3_Leadbie_ScreenShot.png";
-import webDesign4 from "../image/portfolio/4_DevDock_ScreenShot.png";
-import webDesign5 from "../image/portfolio/5_WebstreX_ScreenShot.png";
-import webDesign6 from "../image/portfolio/6_SparxDev_ScreenShot.png";
+import webDesign1 from "../image/portfolio/1_PixPix_ScreenShot.webp";
+import webDesign2 from "../image/portfolio/2_Kitoo_ScreenShot.webp";
+import webDesign3 from "../image/portfolio/3_Leadbie_ScreenShot.webp";
+import webDesign4 from "../image/portfolio/4_DevDock_ScreenShot.webp";
+import webDesign5 from "../image/portfolio/5_WebstreX_ScreenShot.webp";
+import webDesign6 from "../image/portfolio/6_SparxDev_ScreenShot.webp";
 
-import fullViewDesign1 from "../image/portfolio/1_PixPix_Full_Web_View.png";
-import fullViewDesign2 from "../image/portfolio/2_Kitoo_Full_Web_View.png";
-import fullViewDesign3 from "../image/portfolio/3_Leadbie_Full_Web_View.png";
-import fullViewDesign4 from "../image/portfolio/4_DevDock_Full_Web_View.png";
-import fullViewDesign5 from "../image/portfolio/5_WebstreX_Full_Web_View.png";
-import fullViewDesign6 from "../image/portfolio/6_SparxDev_Full_Web_View.png";
+import fullViewDesign1 from "../image/portfolio/1_PixPix_Full_Web_View.webp";
+import fullViewDesign2 from "../image/portfolio/2_Kitoo_Full_Web_View.webp";
+import fullViewDesign3 from "../image/portfolio/3_Leadbie_Full_Web_View.webp";
+import fullViewDesign4 from "../image/portfolio/4_DevDock_Full_Web_View.webp";
+import fullViewDesign5 from "../image/portfolio/5_WebstreX_Full_Web_View.webp";
+import fullViewDesign6 from "../image/portfolio/6_SparxDev_Full_Web_View.webp";
 
 import { FaArrowRight } from "react-icons/fa6";
 

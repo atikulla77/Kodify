@@ -11,6 +11,9 @@ import {
   FaLinkedin,
   FaInstagram,
 } from "react-icons/fa";
+import { TbBrandGithub } from "react-icons/tb";
+import { FaBehance } from "react-icons/fa";
+
 import { Link } from "react-scroll";
 
 const Contact = () => {
@@ -94,16 +97,16 @@ const Contact = () => {
             <div>
               <h3 className="text-[17px] font-semibold">Follow Us</h3>
               <div className="flex space-x-4 mt-2 md:justify-start justify-center">
-                <a href="#" className="hover:text-primary transition-[0.3s]">
-                  <FaFacebook size={20} />
+                <a href="https://github.com/atikulla77" className="hover:text-primary transition-[0.3s]" target="_blank">
+                  <TbBrandGithub size={20} />
                 </a>
-                <a href="#" className="hover:text-primary transition-[0.3s]">
+                <a href="https://x.com/kodify13" className="hover:text-primary transition-[0.3s]" target="_blank">
                   <FaTwitter size={20} />
                 </a>
-                <a href="#" className="hover:text-primary transition-[0.3s]">
-                  <FaLinkedin size={20} />
+                <a href="https://www.behance.net/mdatikulla1" className="hover:text-primary transition-[0.3s]" target="_blank">
+                  <FaBehance size={20} />
                 </a>
-                <a href="#" className="hover:text-primary transition-[0.3s]">
+                <a href="https://www.instagram.com/kodify2/" className="hover:text-primary transition-[0.3s]" target="_blank">
                   <FaInstagram size={20} />
                 </a>
               </div>

@@ -1,9 +1,6 @@
-import React from "react";
-
-import web_kit_mask_main_image from "../image/about/web_kit_mask_main_image.png";
-import image from "../image/about/image.jpg";
-import raward from "../image/about/raward.png";
-
+import web_kit_mask_main_image from "../image/about/web_kit_mask_main_image.webp";
+import image from "../image/about/image.webp";
+import raward from "../image/about/raward.webp";
 
 import partical1 from "../image/background-light-Effect.png";
 import partical2 from "../image/background-light-Effect2.png";

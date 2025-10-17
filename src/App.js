@@ -16,14 +16,14 @@ function App() {
 
   setTimeout(() => {
     setshowLodding(false);
-  }, 2500);
+  }, 1000);
 
   return (
     <div className="w-full h-full bg-[#0a012a]">
       {showLodding ? (
         <Lodding />
       ) : (
-        <div className="w-full h-full">
+        <div className="w-full h-full z-0 relative">
           <Home />
           <About />
           <Skill />

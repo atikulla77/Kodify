@@ -1,7 +1,7 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Navber from "./Navber";
-import profilePhoto from "../image/web-photo.png";
+import profilePhoto from "../image/web-photo.webp";
 
 // partical
 import protfoliodesignHi from "../image/protfolio-design-Hi.png";
@@ -9,10 +9,9 @@ import partical1 from "../image/background-light-Effect.png";
 import partical2 from "../image/background-light-Effect2.png";
 
 import { TbBrandGithub } from "react-icons/tb";
-import { FiLinkedin } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa6";
 import { FaBehance } from "react-icons/fa";
-
+import { FaTwitter } from "react-icons/fa";
 
 import { Link } from "react-scroll";
 
@@ -92,14 +91,14 @@ function Home() {
               <TbBrandGithub className="[@media(min-width:530px)]:text-[24px] [@media(min-width:360px)]:text-[22px] text-[18px]" />
             </a>
             <a
-              href="https://www.linkedin.com/in/razaul-karim-1807b0339/"
+              href="https://x.com/kodify13"
               target="_blank"
               className="[@media(min-width:530px)]:w-[40px] [@media(min-width:360px)]:w-[38px] w-[35px] [@media(min-width:530px)]:h-[40px] [@media(min-width:360px)]:h-[38px] h-[35px] [@media(min-width:360px)]:mx-[5px] mx-[3px] border-[2px] border-[#03BFFF] text-[#03BFFF] flex justify-center items-center rounded-[50%] cursor-pointer social_icon_hover transition-[0.3s]"
             >
-              <FiLinkedin className="[@media(min-width:530px)]:text-[19px] [@media(min-width:360px)]:text-[17px] text-[15px]" />
+              <FaTwitter className="[@media(min-width:530px)]:text-[19px] [@media(min-width:360px)]:text-[17px] text-[15px]" />
             </a>
             <a
-              href="https://www.instagram.com/mdatikulla1/"
+              href="https://www.instagram.com/kodify2/"
               target="_blank"
               className="[@media(min-width:530px)]:w-[40px] [@media(min-width:360px)]:w-[38px] w-[35px] [@media(min-width:530px)]:h-[40px] [@media(min-width:360px)]:h-[38px] h-[35px] [@media(min-width:360px)]:mx-[5px] mx-[3px] border-[2px] border-[#03BFFF] text-[#03BFFF] flex justify-center items-center rounded-[50%] cursor-pointer social_icon_hover transition-[0.3s]"
             >
